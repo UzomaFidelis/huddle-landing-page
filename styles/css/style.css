@@ -74,6 +74,12 @@ body {
   border: none;
   color: hsl(257, 40%, 49%);
   box-shadow: 0 6px 7px -3px hsl(257, 40%, 36%);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color linear 0.2s;
+}
+.register-btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
 }
 
 .social-links {

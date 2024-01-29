@@ -1,0 +1,9 @@
+@mixin fontface($family, $path-wght) {
+  @each $path, $wght in $path-wght {
+    @font-face {
+      font-family: $family;
+      src: $path;
+      font-weight: $wght;
+    }
+  }
+}
